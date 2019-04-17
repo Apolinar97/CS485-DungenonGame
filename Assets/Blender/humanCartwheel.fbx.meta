@@ -1,0 +1,168 @@
+fileFormatVersion: 2
+guid: 138e09ae77c82b3428b1a174eba36976
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Armature
+    100002: Camera
+    100004: Camera.001
+    100006: Cube.001
+    100008: //RootNode
+    100010: Lamp
+    100012: Lamp.001
+    100014: root
+    100016: root.001
+    100018: root.002
+    100020: root.003
+    100022: root.004
+    100024: root.004_end
+    100026: root.005
+    100028: root.006
+    100030: root.007
+    100032: root.008
+    100034: root.008_end
+    100036: root.009
+    100038: root.010
+    100040: root.011
+    100042: root.012
+    100044: root.013
+    100046: root.013_end
+    100048: root.014
+    100050: root.015
+    100052: root.016
+    100054: root.017
+    100056: root.017_end
+    100058: root.018
+    100060: root.019
+    100062: root.020
+    100064: root.021
+    100066: root.021_end
+    400000: Armature
+    400002: Camera
+    400004: Camera.001
+    400006: Cube.001
+    400008: //RootNode
+    400010: Lamp
+    400012: Lamp.001
+    400014: root
+    400016: root.001
+    400018: root.002
+    400020: root.003
+    400022: root.004
+    400024: root.004_end
+    400026: root.005
+    400028: root.006
+    400030: root.007
+    400032: root.008
+    400034: root.008_end
+    400036: root.009
+    400038: root.010
+    400040: root.011
+    400042: root.012
+    400044: root.013
+    400046: root.013_end
+    400048: root.014
+    400050: root.015
+    400052: root.016
+    400054: root.017
+    400056: root.017_end
+    400058: root.018
+    400060: root.019
+    400062: root.020
+    400064: root.021
+    400066: root.021_end
+    2000000: Camera
+    2000002: Camera.001
+    2100000: No Name
+    4300000: Cube.001
+    7400000: Armature|ArmatureAction
+    9500000: //RootNode
+    10800000: Lamp
+    10800002: Lamp.001
+    13700000: Cube.001
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

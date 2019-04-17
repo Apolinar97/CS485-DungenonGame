@@ -29,13 +29,15 @@ public class movement : MonoBehaviour
 
     }
     */
+
     [SerializeField] private float speed;
-    //[SerializeField] private float jumpForce;
-    //[SerializeField] private float rayCastDistance;
+    [SerializeField] private float jumpForce;
+    [SerializeField] private float rayCastDistance;
     private Rigidbody rb;
     public Text countText;
     public Text winString;
     private int count;
+    //private float raycastDistance;
 
     private void Start()
     {
@@ -51,6 +53,16 @@ public class movement : MonoBehaviour
         Vector3 newPosition = rb.position + rb.transform.TransformDirection(movement);
 
         rb.MovePosition(newPosition);
+
+        if(Input.GetKeyDown(KeyCode.Space))
+        {
+            if(Physics.Raycast(transform.position, Vector3.down, rayCastDistance))
+            {
+                rb.AddForce(0, jumpForce, 0, ForceMode.Impulse);
+            }
+
+        }
+
     }
     /*
     private void jump()
