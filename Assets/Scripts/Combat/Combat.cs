@@ -26,6 +26,7 @@ namespace NamelessGame.Combat
 
             float stattedDamage = attacker.CombatantStats.CalculateStatMod(sourceDamage, abilityAttack);
             cl.AppendLine("Statted Damage: " + stattedDamage.ToString());
+            this.CombatLog += cl.ToString();
 
             attack.SetAttackDamage(stattedDamage);
             return attack;
@@ -33,7 +34,8 @@ namespace NamelessGame.Combat
 
         public void DamageCombatant(Combatant target, CombatAttack combatAttack)
         {
-
+            float resistedDamage = target.CombatantResistances.CalcResisted(combatAttack);
+            target.CombatantHealth.HealthDamaged(resistedDamage);
         }
 
     }

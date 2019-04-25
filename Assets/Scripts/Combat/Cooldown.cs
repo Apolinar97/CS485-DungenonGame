@@ -41,7 +41,6 @@ namespace NamelessGame.Combat
 
         public void Used()
         {
-            Debug.Log("Basic Left Ability Used");
             this.cdTimer = this.Time;
         }
 
